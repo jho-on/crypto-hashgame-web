@@ -33,7 +33,7 @@ footer a{
     background-color: var(--BGColor);
 
     width: 100%;
-    height: calc(100dvh - 46px);
+    height: 100dvh;
 
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ footer a{
 
 @media (max-width:450px){
     #content{
-        width: 100%;
-        height: 100%;
+        width: 95%;
+        height: 70%;
     }
 }
