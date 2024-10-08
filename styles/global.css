@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('/misc/ComicSansMS3.ttf');
+}
+
+:root{
+    font-family: 'Comic Sans MS';
+
+    --BGColor : #FBF6D9;
+    --detailColor: #F4AC36;
+    --textColor: #21181B;
+
+    --border-radius-xs: 3px;
+    --border-radius-sm: 5px;
+    --border-radius-md: 10px;
+    
+    --margin-sm: 5px;
+    --margin-md: 10px;
+    --margin-lg: 15px;
+    --margin-xl: 20px;
+    --margin-xxl: 25px;
+
+    --padding-xs: 2px;
+    --padding-sm: 5px;
+    --padding-md: 10px;
+    --padding-lg: 15px;
+    --padding-xl: 20px;
+    --padding-xxl: 25px;
+
+    --gap-sm: 5px;
+    --gap-md: 10px;
+    --gap-lg: 15px;
+    --gap-xl: 20px;
+    --gap-xxl: 25px;
+
+    --text-size-desktop-xs: 12px;
+    --text-size-desktop-sm: 16px;
+    --text-size-desktop-md: 20px;
+    --text-size-desktop-lg: 24px;
+    --text-size-desktop-xl: 28px;
+    --text-size-desktop-xxl: 32px;
+
+    --text-size-mobile-xs: 10px;
+    --text-size-mobile-sm: 14px;
+    --text-size-mobile-md: 18px;
+    --text-size-mobile-lg: 22px;
+    --text-size-mobile-xl: 26px;
+    --text-size-mobile-xxl: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.button {
+    font-family: 'Comic Sans MS';
+    border: 1px solid var(--textColor);
+    background-color: var(--detailColor);
+    padding: var(--padding-md);
+    font-size: var(--text-size-desktop-md);
+}
